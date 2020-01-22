@@ -1,0 +1,156 @@
+{
+	"info": {
+		"_postman_id": "c401a4a5-63e2-4435-b4da-331cd66afd17",
+		"name": "Flights Browse Prices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Browse Quotes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://partners.api.skyscanner.net/apiservices/browsequotes/v1.0/FR/eur/en-US/uk/us/anytime/anytime?apikey=prtl6749387986743898559646983194",
+					"protocol": "http",
+					"host": [
+						"partners",
+						"api",
+						"skyscanner",
+						"net"
+					],
+					"path": [
+						"apiservices",
+						"browsequotes",
+						"v1.0",
+						"FR",
+						"eur",
+						"en-US",
+						"uk",
+						"us",
+						"anytime",
+						"anytime"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "prtl6749387986743898559646983194"
+						}
+					]
+				},
+				"description": "Browse quotes API call\n\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Browse Routes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://partners.api.skyscanner.net/apiservices/browseroutes/v1.0/FR/eur/en-US/us/anywhere/anytime/anytime?apikey=prtl6749387986743898559646983194",
+					"protocol": "http",
+					"host": [
+						"partners",
+						"api",
+						"skyscanner",
+						"net"
+					],
+					"path": [
+						"apiservices",
+						"browseroutes",
+						"v1.0",
+						"FR",
+						"eur",
+						"en-US",
+						"us",
+						"anywhere",
+						"anytime",
+						"anytime"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "prtl6749387986743898559646983194"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Browse Dates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://partners.api.skyscanner.net/apiservices/browsedates/v1.0/FR/eur/en-US/lond/pari/2017/2017?apikey=prtl6749387986743898559646983194",
+					"protocol": "http",
+					"host": [
+						"partners",
+						"api",
+						"skyscanner",
+						"net"
+					],
+					"path": [
+						"apiservices",
+						"browsedates",
+						"v1.0",
+						"FR",
+						"eur",
+						"en-US",
+						"lond",
+						"pari",
+						"2017",
+						"2017"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "prtl6749387986743898559646983194"
+						}
+					]
+				},
+				"description": "Browse dates API call from London to Paris in 2017.\n\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Browse Grid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://partners.api.skyscanner.net/apiservices/browsegrid/v1.0/FR/eur/en-US/lond/pari/2017/2017?apikey=prtl6749387986743898559646983194",
+					"protocol": "http",
+					"host": [
+						"partners",
+						"api",
+						"skyscanner",
+						"net"
+					],
+					"path": [
+						"apiservices",
+						"browsegrid",
+						"v1.0",
+						"FR",
+						"eur",
+						"en-US",
+						"lond",
+						"pari",
+						"2017",
+						"2017"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "prtl6749387986743898559646983194"
+						}
+					]
+				},
+				"description": "Browse grid API call from London to Paris in 2017.\n\n"
+			},
+			"response": []
+		}
+	]
+}
