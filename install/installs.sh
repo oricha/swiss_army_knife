@@ -52,8 +52,7 @@ brew install moreutils
 brew install p7zip
 brew install watch
 brew install tree
-brew install node@8
-brew install node@6
+brew install node
 brew install yarn --without-node
 
 echo "Fun cli commands..."
